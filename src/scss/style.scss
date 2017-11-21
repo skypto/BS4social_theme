@@ -1,0 +1,33 @@
+// Declare the reusable variables
+$bg-color:#333;
+$font-color:#fff;
+$primary-color:#008ed6;
+
+
+//style the body
+body{
+    background: $bg-color;
+    color:$font-color;
+}
+
+.navbar{
+    border-bottom: $primary-color 3px solid;
+    opacity: 0.8;
+}
+
+
+// Fix the Humberger button overlapping with the logo when the page is resized. This happens because container is put inside the nav
+@media(max-width:576px){
+    nav .container {
+        width:100%;
+    }
+}
+
+
+
+
+
+// .navbar-brand{
+//     font-family: 'Indie Flower', serif;
+//     font-size: 20;
+// }
