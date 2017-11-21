@@ -18,6 +18,8 @@ Find out more information/tip/tricks for planning your next trip.
 * Clickable links for page section navigation
 * Contact form
 
+# V2.0.0
+* Develop the Home Showcase section of the webpage.
 
 # V1.0.0
 * Nav Bar development
