@@ -70,7 +70,15 @@ body{
     }
 }
 
-
+#create-section{
+    .fa{ //the check boxes 
+        color: $primary-color;
+        background:#fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $landing-icon-size;
+    }
+}
 
 // .navbar-brand{
 //     font-family: 'Indie Flower', serif;
