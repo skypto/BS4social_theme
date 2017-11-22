@@ -18,6 +18,11 @@ Find out more information/tip/tricks for planning your next trip.
 * Clickable links for page section navigation
 * Contact form
 
+
+# V5.0.0
+* Develop the Share Head
+* Develop the Main Share Section
+
 # V4.0.0
 * Develop Create Head
 * Develop Main Create Section
