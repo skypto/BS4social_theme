@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +12,25 @@
     <link rel="stylesheet" href="css/style.css">
     <title>FunShare</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-toggleable navbar-inverse bg-inverse fixed-top"> <!-- navbar -->
-        <div class="container"> <!-- container to  keep everyting in the middle -->
-            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarCollapse"> <!-- Humberger Button -->
-               <span class="navbar-toggler-icon"></span> <!-- navbar icon -->
+    <nav class="navbar navbar-toggleable navbar-inverse bg-inverse fixed-top">
+        <!-- navbar -->
+        <div class="container">
+            <!-- container to  keep everyting in the middle -->
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarCollapse">
+                <!-- Humberger Button -->
+                <span class="navbar-toggler-icon"></span>
+                <!-- navbar icon -->
             </button>
-            <a href="#" class="navbar-brand">FunShare</a>  <!-- Branding/Logo -->
-            
-            <div class="collapse navbar-collapse" id="navbarCollapse">  <!-- humberger content -->
-                <ul class="navbar-nav ml-auto"> <!-- humberger push right-->
-                    <li class="nav-item"> 
+            <a href="#" class="navbar-brand">FunShare</a>
+            <!-- Branding/Logo -->
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- humberger content -->
+                <ul class="navbar-nav ml-auto">
+                    <!-- humberger push right-->
+                    <li class="nav-item">
                         <a href="#" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
@@ -33,74 +42,145 @@
                     <li class="nav-item">
                         <a href="#share-head-section" class="nav-link">Share</a>
                     </li>
-                    
+
                 </ul>
-            </div> 
+            </div>
         </div>
     </nav>
 
     <!-- Home Showcase section -->
 
-<header id="home-section">
-    <div class="dark-overlay"> <!-- create an overlay -->
-        <div class="home-inner">
-            <div class="container"> <!-- to push our actual content to the middle -->
+    <header id="home-section">
+        <div class="dark-overlay">
+            <!-- create an overlay -->
+            <div class="home-inner">
+                <div class="container">
+                    <!-- to push our actual content to the middle -->
                     <!-- create an 8x4 column div -->
-                <div class="row">
-                    <div class="col-md-8">  <!-- 8 grid -->
-                        <h1 class="display-4">Experiences are to be <strong>treasured</strong>. Connect to share your moments</h1>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <!-- 8 grid -->
+                            <h1 class="display-4">Experiences are to be
+                                <strong>treasured</strong>. Connect to share your moments</h1>
 
-                        <div class="d-flex flex-row"> <!--flex boxes1 -->
-                            <div class="p-4 align-self-start"> <i class="fa fa-check"></i></div> <!-- icon div -->
-                            <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, et.</div>
+                            <div class="d-flex flex-row">
+                                <!--flex boxes1 -->
+                                <div class="p-4 align-self-start">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <!-- icon div -->
+                                <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, et.</div>
+                            </div>
+
+                            <div class="d-flex flex-row">
+                                <!--flex boxes2 -->
+                                <div class="p-4 align-self-start">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <!-- icon div -->
+                                <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, reprehenderit?</div>
+                            </div>
+
+                            <div class="d-flex flex-row">
+                                <!-- flex boxes3 -->
+                                <div class="p-4 align-self-start">
+                                    <i class="fa fa-check"></i>
+                                </div>
+                                <!-- icon div -->
+                                <div class="p-4 align-self-end">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, itaque!</div>
+                            </div>
+
                         </div>
 
-                        <div class="d-flex flex-row"> <!--flex boxes2 -->
-                            <div class="p-4 align-self-start"> <i class="fa fa-check"></i></div> <!-- icon div -->
-                            <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, reprehenderit?</div>
-                        </div>
+                        <div class="col-md-4">
+                            <!-- 4 grid -->
+                            <div class="card card-primary card-form text-center">
+                                <div class="card-block">
+                                    <h3>Sign Up Today</h3>
+                                    <p>Please fill out this form to register</p>
+                                    <form action="">
+                                        <!--form-->
+                                        <div class="form-group">
+                                            <input type="text" name="username" placeholder="Username" class="form-control form-control-lg">
+                                        </div>
 
-                        <div class="d-flex flex-row"> <!-- flex boxes3 -->
-                            <div class="p-4 align-self-start"> <i class="fa fa-check"></i></div> <!-- icon div -->
-                            <div class="p-4 align-self-end">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, itaque!</div>
-                        </div>
+                                        <div class="form-group">
+                                            <input type="email" name="email" placeholder="Email" class="form-control form-control-lg">
+                                        </div>
 
-                    </div>
+                                        <div class="form-group">
+                                            <input type="password" name="password" placeholder="Password" class="form-control form-control-lg">
+                                        </div>
 
-                    <div class="col-md-4"> <!-- 4 grid -->
-                        <div class="card card-primary card-form text-center">
-                            <div class="card-block">
-                                <h3>Sign Up Today</h3>
-                                <p>Please fill out this form to register</p>
-                                <form action=""> <!--form-->
-                                    <div class="form-group">
-                                        <input type="text" name="username" placeholder="Username" class="form-control form-control-lg">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <input type="email" name="email" placeholder="Email" class="form-control form-control-lg">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <input type="password" name="password" placeholder="Password" class="form-control form-control-lg">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <input type="password" name="password2" placeholder="Confirm Password" class="form-control form-control-lg">
-                                    </div>
-                                    <input type="submit" value="Submit" class="btn btn-outline-secondary btn-block">
-                                </form>
+                                        <div class="form-group">
+                                            <input type="password" name="password2" placeholder="Confirm Password" class="form-control form-control-lg">
+                                        </div>
+                                        <input type="submit" value="Submit" class="btn btn-outline-secondary btn-block">
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
-    </div>
-</header>
-    
-<script src="js/jquery.min.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+    </header>
+
+    <!-- EXPLORE HEAD -->
+    <section id="explore-head-section">
+        <div class="container">
+            <div class="col text-center">
+                <div class="py-5">
+                    <!-- This to add padding up and down -->
+                    <h1 class="display-4">Explore</h1>
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, ex maiores voluptas labore vero
+                        eligendi ipsam quasi quisquam soluta facilis!</p>
+                    <a href="#" class="btn btn-outline-secondary">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPLORE SECTION -->
+    <section id="explore-section" class="bg-faded text-muted py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- 6 grid for image -->
+                    <img src="img/discover.jpg" alt="" class="img-fluid mb-3 rounded-circle">
+                </div>
+                <div class="col-md-6">
+                    <!-- 6 grid for content -->
+                    <h3>Explore Learn & Connect</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, illum velit ipsum nihil numquam assumenda
+                        sed in! Asperiores ullam earum, obcaecati aut odio quae, ex corrupti eligendi, vitae dolorum sequi.</p>
+
+                    <div class="d-flex flex-row">
+                        <!--flex boxes1 -->
+                        <div class="p-4 align-self-start">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <!-- icon div -->
+                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, et.</div>
+                    </div>
+
+                    <div class="d-flex flex-row">
+                        <!--flex boxes2 -->
+                        <div class="p-4 align-self-start">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <!-- icon div -->
+                        <div class="p-4 align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, reprehenderit?</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
