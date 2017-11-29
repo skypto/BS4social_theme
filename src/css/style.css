@@ -46,3 +46,6 @@ body {
   padding: 4px;
   border-radius: 5px;
   font-size: 30px; }
+
+.modal {
+  color: #333; }

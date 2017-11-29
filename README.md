@@ -18,6 +18,10 @@ Find out more information/tip/tricks for planning your next trip.
 * Clickable links for page section navigation
 * Contact form
 
+# V6.0.0
+* Develop the footer
+* Develop the contact Modal
+* Make page responsive
 
 # V5.0.0
 * Develop the Share Head
