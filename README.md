@@ -18,6 +18,21 @@ Find out more information/tip/tricks for planning your next trip.
 * Clickable links for page section navigation
 * Contact form
 
+# INSTALLATION AND USAGE
+- Clone repository to your local workspace: '`git clone https://github.com/skypto/BS4social_theme.git`'
+- Navigate into the folder and run: '`npm install`' to load all the dependencies.
+- Start the server by running: '`npm start`' for live view of working project.
+
+## NOTE: 
+- You can use this template freely except the images. After your modifications, all you have to do is to import the `src` folder to your server and it will work just fine.
+- This project is developed in versions and you can always navigate to the respective version to learn more.
+
+# PROJECT VERSIONS
+
+# V6.0.1
+* Documentation update
+* Installation and usage
+
 # V6.0.0
 * Develop the footer
 * Develop the contact Modal
