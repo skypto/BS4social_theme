@@ -1,7 +1,7 @@
 # BS4social_theme 
 Social theme built with bootstrap4.
 
-## [PREVIEW](https://skypto.github.io/BS4social_theme_preview/)
+## [Preview Webpage](https://skypto.github.io/BS4social_theme_preview/)
 
 
 # DESCRIPTION
